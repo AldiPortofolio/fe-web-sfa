@@ -1,0 +1,52 @@
+.h-124{
+  height: 124px;
+}
+
+.text-gray{
+  color: $gray-300;
+}
+
+.text-blue{
+  color: $blue;
+}
+
+.text-warning{
+  color: $yellow;
+}
+
+
+label{
+  font-weight: 600;
+  
+  small{
+    font-weight: 600;
+  }
+}
+
+.breadcrumb{
+  padding: .25rem 0;
+  margin-bottom: .5rem;
+  list-style: none;
+  background-color: transparent;
+  border-radius: .25rem;
+  font-size: 14px;
+}
+
+.bg-soft-warning{
+  background-color: rgba(255, 193, 7, 0.1);
+}
+
+.small-info{
+  border-radius: 8px;
+  padding: .25rem;
+  
+  label{
+    font-size: 10px;
+    font-weight: bold;
+  }
+
+  p{
+    font-size: 14px;
+    font-weight: bold;
+  }
+}

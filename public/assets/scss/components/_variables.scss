@@ -1,0 +1,43 @@
+$blue:              #056eb5;
+$blue-400:          #1baef6;
+$blue-500:          #4b90e3;
+$deep-blue:         #045a94;
+$darker-blue:       #2c6eb0;
+$dark-blue:         #193349;
+$light-blue:        #e4ecf1;
+$lighten-blue:      #e2f6ff;
+$blacken-blue:      #10334b;
+$white:             #ffffff;
+$red:               #e03c4f;
+$pink:              #ff7888;
+$gray:              #4d6778;
+$gray-300:          #9b9b9b;
+$gray-100:          #eaeaea;
+$light-gray:        #f3f3f3;
+$light-yeloow:      #fffef3;
+$green:             #50e3c2;
+$light-orange:      #ebad4d;
+$slate:             #526776;
+$yellow:            #f5a623;
+
+
+
+// Gradient
+
+$gradient-red:      linear-gradient(to bottom, #f26f87, #e03c4f);
+$gradient-purple:   linear-gradient(#1bbdff, #1bbdff), linear-gradient(62deg, rgba(43, 0, 135, 0), rgba(43, 0, 135, 0.39));
+$gradient-blue:     linear-gradient(to bottom, rgba(5, 110, 181, 0.4), rgba(5, 110, 181, 0.8));
+
+// Transparent
+
+$transparent-white: rgba(255, 255, 255, 0.9);
+
+// fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
+@import url('https://fonts.googleapis.com/css?family=Signika:600,700');
+@import url('https://fonts.googleapis.com/css?family=Asap:500,600');
+
+$roboto:            'Roboto Slab', sans-serif;
+$signika:           'Signika', sans-serif;
+$asap:           'Asap', sans-serif;
+$helvetica:         "Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";

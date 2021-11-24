@@ -1,0 +1,50 @@
+{ 
+    "data": {
+        "id": 123,
+        "sales_name": "Ghina",
+        "photo": "http://13.228.25.85:9000/ottodigital/PhotoProfil_test_data_sales-86721870.jpeg",
+        "phone_number": "08123132132",
+        "sales_type": "sr0",
+        "sub_area": "Jakarta",
+        "akusisi": 10,
+        "noo": 10,
+        "todolist": 10,
+        "success_call": 10,
+        "total_call": 10,
+        "amount": 150000,
+        "date": "22-09-2021",
+        "sales_id": 1234,
+        "coverage": "Area Jakarta",
+        "sac": "SAC 08"
+    }, 
+    "meta": {
+        "code": 200,
+        "message": "OK",
+        "status": true
+    },
+    "todolist": [
+        {
+            "action_date": "01-01-0001",
+            "id": 136258,
+            "merchant_name": "Test add merchant new tiga",
+            "mid": "11725",
+            "sales_phone": "",
+            "status": "Late",
+            "sub_area": "SAC 01 Jakarta 0400",
+            "task_date": "21-09-2021",
+            "todolist_category_id": 6
+        }
+    ],
+    "callplan": [
+        {
+            "action_date": "01-01-0001",
+            "id": 136258,
+            "merchant_name": "Test add merchant new tiga",
+            "mid": "11725",
+            "merchant_type": "Gold",
+            "status": "Late",
+            "sub_area": "SAC 01 Jakarta 0400",
+            "merchant_status": "21-09-2021"
+        }
+    ]
+}

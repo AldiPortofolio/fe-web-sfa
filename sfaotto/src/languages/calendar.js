@@ -1,0 +1,98 @@
+export const ind = {
+
+    list: {
+        header: 'Calendar Setup',
+        add: 'Add Holiday',
+        search: 'Search',
+        date: 'Date',
+        to: 'To',
+        type: 'Type',
+        id: 'ID Number',
+        desc: 'Description',
+        actions: 'Actions',
+        errTo: 'please fill out this field.',
+        reset: 'Reset',
+        delete: 'Delete selected data.',
+        hapusData: 'Apakah Anda yakin ingin menghapus ',
+        singleDelete: 'Apakah Anda yakin ingin menghapus Calendar ini?',
+    },
+
+    edit: {
+        header: 'Edit Calendar',
+        id: 'ID Number',
+        desc: 'Description',
+        type: 'Type',
+        date: 'Date',
+        pDesc: 'Tahun Baru',
+        cancel: 'Keluar',
+        save: 'Simpan',
+        sukses: 'Update Calendar success!',
+        gagal: 'Update Calendar fail! ',
+        err1: `Can't back dated from 'Date'.`,
+    },
+
+    new: {
+        header: 'Add Calendar',
+        id: 'ID Number',
+        date: 'Date',
+        type: 'Type',
+        repeat: 'Repeat',
+        until: 'Repeat Until',
+        desc: 'Description',
+        cancel: 'Keluar',
+        save: 'Simpan',
+        sukses: 'Tambah data calendar sukses',
+        gagal: 'Tambah data calendar gagal',
+        err1: `Can't back dated from 'Date'.`,
+    },
+    
+}
+
+export const en = {
+    list: {
+        header: 'Calendar Setup',
+        add: 'Add Holiday',
+        search: 'Search',
+        date: 'Date',
+        to: 'To',
+        type: 'Type',
+        id: 'ID Number',
+        desc: 'Description',
+        actions: 'Actions',
+        errTo: 'please fill out this field.',
+        reset: 'Reset',
+        delete: 'Delete selected data.',
+        hapusData: 'Apakah Anda yakin ingin menghapus ',
+        singleDelete: 'Apakah Anda yakin ingin menghapus Calendar ini?',
+    },
+
+    edit: {
+        header: 'Edit Calendar',
+        id: 'ID Number',
+        desc: 'Description',
+        type: 'Type',
+        date: 'Date',
+        pDesc: 'Tahun Baru',
+        cancel: 'Keluar',
+        save: 'Simpan',
+        sukses: 'Update Calendar success!',
+        gagal: 'Update Calendar fail! ',
+        err1: `Can't back dated from 'Date'.`,
+    },
+
+    new: {
+        header: 'Add Calendar',
+        id: 'ID Number',
+        date: 'Date',
+        type: 'Type',
+        repeat: 'Repeat',
+        until: 'Repeat Until',
+        desc: 'Description',
+        cancel: 'Keluar',
+        save: 'Simpan',
+        sukses: 'Tambah data calendar sukses',
+        gagal: 'Tambah data calendar gagal', 
+        err1: `Can't back dated from 'Date'.`,
+    },
+    
+}

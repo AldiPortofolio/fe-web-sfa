@@ -1,0 +1,34 @@
+{
+    "lang": "in",
+    "general": {
+      "save": "Save",
+      "back": "Back",
+      "detele": "Delete",
+      "id": "ID",
+      "desc": "Description",
+      "actions": "Actions",
+      "input": "Input",
+      "search": "Search",
+      "cancel": "Cancel"
+    },
+    "pages": {
+        "salesLevel": {
+            "title": "Sales Level",
+            "titleAdd": "Add Sales Level",
+            "titleEdit": "Edit Sales Level",
+            "detail": "Sales Level Detail",
+            "levelName": "Level Name",
+            "totalMerchantVisit": "Total Merchant Visit"
+        },
+        "salesLevelAssignment": {
+            "title": "Sales Level Assignment",
+            "titleAdd": "Add Sales Level Assignment",
+            "titleEdit": "Edit Sales Level Assignment",
+            "detail": "Sales Level Assignment Detail",
+            "salesLevel": "Sales Level",
+            "phone": "Phone",
+            "salesName": "Sales Name",
+            "salesNumberPhone": "Nomor Hp Sales"
+        }
+    }
+}

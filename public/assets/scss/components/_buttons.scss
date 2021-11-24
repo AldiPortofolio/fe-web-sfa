@@ -1,0 +1,59 @@
+.btn{
+
+  &.btn-circle{
+    width: 56px;
+    height: 56px;
+    border-radius: 70px;
+  }
+
+  &.btn-rounded{
+    padding: .375rem 1.25rem;
+    border-radius: 17px;
+  }
+
+  &.btn-circle{
+    height: 28px;
+    width: 28px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    svg{
+      width: 20px;
+      margin-right: 0;
+    }
+  }
+
+  &.btn-more{
+    background-color: #e2f6ff;
+    color: $blue;
+
+    &.dropdown-toggle:after{
+      display: none;
+    }
+
+    .dropdown-menu{
+      .dropdown-item{
+        border-bottom: none;
+      }
+    }
+  }
+
+  &.btn-circle-submit{
+    height: 56px;
+    width: 56px;
+    padding: 10px;
+
+    svg{
+      height: 33px;
+      width: 33px;
+    }
+  }
+
+  svg{
+    margin-right: .25rem;
+    width: 21px;
+    height: 21px;
+  }
+}

@@ -1,0 +1,58 @@
+.form-group{
+  margin-bottom: 1.5rem;
+}
+
+.form-control {
+  height: 48px;
+  border-radius: .5em;
+
+  &.form-control-line{
+    border-radius: 0;
+    border: none;
+    height: 36px;
+    padding: 0;
+    border-bottom: solid 1px $gray-100;
+
+    &:focus{
+      outline: none;
+      box-shadow: none;
+      border-color: $darker-blue;
+    }
+  }
+}
+
+.custom-select{
+  background: url(../../assets/img/chevron-down.svg) no-repeat right .5rem center;
+  background-size: 18px 18px;
+  border: 1px solid #f7f7f7;
+  border-radius: 50px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #f7f7f7;
+
+  &.custom-select-sm{
+    line-height: 1;
+  }
+}
+
+.custom-select-line{
+  border: none;
+  width: 100%;
+  background: url(../../assets/img/chevron-down.svg) no-repeat right .3rem center;
+  background-size: 20px 20px;
+  background-color: transparent;
+  border-bottom: solid 1px $gray-100;
+  font-size: 14px;
+  padding: 7px 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  transition: all 0.3s ease;
+
+  &:focus{
+    outline: none;
+    border-color: $darker-blue;
+  }
+}

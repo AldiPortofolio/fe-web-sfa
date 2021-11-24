@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+  <title>Dashboard</title>
+</head>
+<body class="auth">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <div class="navbar-logo">
+      <a class="navbar-brand" href="/dashboard">
+        <img src="/assets/img/logo.png">
+      </a>
+      <h4>Dashboard</h4>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+    <div class="container">
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item nav-item-icon dropdown" href="#" id="navbarDropdownNotif" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bell"><path d="M22 17H2a3 3 0 0 0 3-3V9a7 7 0 0 1 14 0v5a3 3 0 0 0 3 3zm-8.27 4a2 2 0 0 1-3.46 0"></path></svg>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownNotif">
+              <a class="dropdown-item" href="#">Notification</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <div class="nav-item-photo">
+                <img src="">
+              </div>
+              <div class="nav-item-detail">
+                <span class="name">John Due</span>
+                <small>john@due.com</small>
+              </div>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="/admin/manage">Pengaturan Admin</a>
+              <a class="dropdown-item" href="/login">Keluar</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mb-5">
+    <div class="row">
+      <div class="col-12 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-12 col-lg-9">
+                <h3 class="text-uppercase float-left">Target</h3>
+                <div class="float-right">
+                  <select class="custom-select custom-select-sm">
+                    <option>Indonesia</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-12 col-lg-9">
+                <canvas id="chart-target" height="200"></canvas>
+              </div>
+              <div class="col-12 col-lg-3 text-center pb-3">
+                <div class="table-fixed">
+                  <table class="table table-header table-sm text-center">
+                    <thead>
+                      <th>Tahun</th>
+                      <th>Tercapai</th>
+                    </thead>
+                  </table>
+                  <div class="table-body">
+                    <table class="table table-sm text-center mb-5">
+                      <thead>
+                        <th>Tahun</th>
+                        <th>Tercapai</th>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td><strong>2011</strong></td>
+                          <td class="text-gray">80%</td>
+                        </tr>
+                        <tr>
+                          <td><strong>2011</strong></td>
+                          <td class="text-gray">80%</td>
+                        </tr>
+                        <tr>
+                          <td><strong>2011</strong></td>
+                          <td class="text-gray">80%</td>
+                        </tr>
+                        <tr>
+                          <td><strong>2011</strong></td>
+                          <td class="text-gray">80%</td>
+                        </tr>
+                        <tr>
+                          <td><strong>2011</strong></td>
+                          <td class="text-gray">80%</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <p class="text-gray"><small>Lihat target lebih detail hingga kecamatan seluruh Indonesia</small></p>
+                <a href="/targets/detail-1" class="btn btn-danger btn-rounded">Detail Target</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <a href="/sales/register" class="card card-rounded card-bg h-124 mb-4" style="background-image: url(assets/img/register-bg.png)">
+          <div class="card-body text-center d-flex justify-content-center align-items-center">
+            <div class="block">
+              <h6 class="mb-0">Pendaftaran Sales</h6>
+              <small>Melakukan pendaftaran sales perorang maupun bulk</small>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-12 col-lg-4">
+        <a href="/sales/manage" class="card card-rounded card-bg h-124 mb-4" style="background-image: url(assets/img/manage-target-bg.png)">
+          <div class="card-body text-center d-flex justify-content-center align-items-end">
+            <h6>Manage Sales</h6>
+          </div>
+        </a>
+      </div>
+      <div class="col-12 col-lg-4">
+        <a href="/targets/set-target" class="card card-rounded card-bg h-124 mb-4" style="background-image: url(assets/img/set-target-bg.png)">
+          <div class="card-body text-center d-flex justify-content-center align-items-end">
+            <h6>Set Target</h6>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <footer>
+    <small>Member of Salim Group</small>
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="/assets/js/bootstrap.min.js"></script>
+  <script src="/assets/js/chart.bundle.min.js"></script>
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>

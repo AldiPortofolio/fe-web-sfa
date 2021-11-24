@@ -1,0 +1,98 @@
+export const ind = {
+
+    list: {
+        header: 'List Request',
+        filter: 'Filter by:',
+        reqType: 'Request Type',
+        status: 'Status',
+        module: 'Module',
+        id: 'ID Request',
+        delete: 'Hapus',
+        maker: 'Maker',
+        reqDate: 'Request Date',
+        no: 'No Request'
+    },
+
+    detail: {
+        header: 'Request Detail',
+        idSfa: 'ID SFA',
+        status: 'Status',
+        email: 'Email',
+        header2: 'Account Detail',
+        jabatan: 'Jabatan',
+        phone: 'Phone',
+        companyCode: 'Kode Perusahaan',
+        idSales: 'ID Sales',
+        header3: 'Sales Detail',
+        noKtp: 'Nomor KTP',
+        tempatLahir: 'Tempat Lahir',
+        tanggalLahir: 'Tanggal Lahir',
+        tanggalMasuk: 'Tanggal Masuk Kerja',
+        salesType: 'Tipe Sales',
+        gender: 'Jenis Kelamin',
+        address: 'Alamat',
+        header4: 'Regional Detail',
+        region: 'Region',
+        branch: 'Branch',
+        area: 'Area',
+        subArea: 'SubArea',
+        header5: 'Maker',
+        actionType: 'Action Type',
+        date: 'Date',
+        module: 'Module',
+        reason: 'Reason',
+        reject: 'Tolak',
+        verify: 'Verifikasi',
+        idCard: 'ID Card'
+    },
+}
+
+export const en = {
+    
+    list: {
+        header: 'List Request',
+        filter: 'Filter by:',
+        reqType: 'Request Type',
+        status: 'Status',
+        module: 'Module',
+        id: 'ID Request',
+        delete: 'Delete',
+        maker: 'Maker',
+        reqDate: 'Request Date',
+        no: 'No Request'
+    },
+
+    detail: {
+        header: 'Request Detail',
+        idSfa: 'ID SFA',
+        status: 'Status',
+        email: 'Email',
+        header2: 'Account Detail',
+        jabatan: 'Jabatan',
+        phone: 'Phone',
+        companyCode: 'Kode Perusahaan',
+        idSales: 'ID Sales',
+        header3: 'Sales Detail',
+        noKtp: 'Nomor KTP',
+        tempatLahir: 'Tempat Lahir',
+        tanggalLahir: 'Tanggal Lahir',
+        tanggalMasuk: 'Tanggal Masuk Kerja',
+        salesType: 'Sales Type',
+        gender: 'Jenis Kelamin',
+        address: 'Alamat',
+        header4: 'Regional Detail',
+        region: 'Region',
+        branch: 'Branch',
+        area: 'Area',
+        subArea: 'SubArea',
+        header5: 'Maker',
+        actionType: 'Action Type',
+        date: 'Date',
+        module: 'Module',
+        reason: 'Reason',
+        reject: 'Reject',
+        verify: 'Verifikasi',
+        idCard: 'ID Card'
+    },
+
+}

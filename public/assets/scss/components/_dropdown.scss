@@ -1,0 +1,41 @@
+.dropdown-menu{
+  border-radius: 16px;
+  overflow: hidden;
+  border-color: $light-gray;
+  padding: 0;
+
+  .dropdown-item{
+    border-bottom: solid 1px $light-gray;
+    color: #9ca6ad;
+    padding: .65rem 1rem;
+
+    &:hover{
+      background-color: transparent;
+      color: #4d6778;
+    }
+
+    &:last-child{
+      border-bottom: none;
+    }
+  }
+
+  &.dropdown-menu-icon{
+
+    .dropdown-item{
+      display: flex;
+      align-items: center;
+      border-bottom: none;
+      color: $blacken-blue;
+
+      svg{
+        width: 20px;
+        color: $blue;
+        margin-right: 10px;
+      }
+
+      &:hover{
+        background-color: $light-gray;
+      }
+    }
+  }
+}

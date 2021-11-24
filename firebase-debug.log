@@ -1,0 +1,17 @@
+[debug] [2018-07-26T18:16:40.562Z] ----------------------------------------------------------------------
+[debug] [2018-07-26T18:16:40.564Z] Command:       /Users/aldajulian/.nvm/versions/node/v8.11.1/bin/node /Users/aldajulian/.nvm/versions/node/v8.11.1/bin/firebase deploy
+[debug] [2018-07-26T18:16:40.564Z] CLI Version:   4.0.0
+[debug] [2018-07-26T18:16:40.564Z] Platform:      darwin
+[debug] [2018-07-26T18:16:40.564Z] Node Version:  v8.11.1
+[debug] [2018-07-26T18:16:40.564Z] Time:          Fri Jul 27 2018 01:16:40 GMT+0700 (WIB)
+[debug] [2018-07-26T18:16:40.564Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-26T18:16:40.576Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-26T18:16:40.577Z] > authorizing via signed-in user
+[debug] [2018-07-26T18:16:40.579Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/sfa-otto  
+  
+ Fri Jul 27 2018 01:16:40 GMT+0700 (WIB)
+[debug] [2018-07-26T18:16:41.658Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T18:16:41.659Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/sfa-otto/tokens  
+  
+ Fri Jul 27 2018 01:16:41 GMT+0700 (WIB)
